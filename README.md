@@ -8,6 +8,10 @@ SPDX-License-Identifier: MIT
 
 This repository contains a Java-based software project developed for a university course on Software Quality. The project includes implementations and tests for computing the greatest common divisor (GCD) and a stack data structure. It uses Maven for project management and dependency resolution.
 
+## Purpose
+
+The purpose of this project is to demonstrate basic software quality principles by implementing a simple mathematical utility and a stack data structure, along with corresponding tests. This exercise also reinforces the use of Maven for dependency management and test automation with JUnit.
+
 ## Project Structure
 
 The project comprises the following primary files:
@@ -18,14 +22,14 @@ The project comprises the following primary files:
 - **StackTest.java**: JUnit test cases for the `Stack` class.
 - **pom.xml**: Maven configuration file for managing dependencies and project setup.
 
-## Getting Started
+## Installation
 
 ### Prerequisites
 
 - **Java JDK 23**: Ensure you have Java 23 installed, as specified in `pom.xml`.
 - **Maven**: This project uses Maven for dependency management. Install it if you haven’t already.
 
-### Installation
+### Installation Steps
 
 1. **Clone the Repository**
    ```bash
@@ -45,7 +49,7 @@ The project comprises the following primary files:
    mvn test
    ```
 
-## Project Details
+## Usage
 
 ### MyMaths Class
 
@@ -78,6 +82,24 @@ This project uses **JUnit 5** for testing. All tests are located in the `src/tes
 The project dependencies are managed through Maven and are specified in `pom.xml`. Key dependencies include:
 
 - **JUnit 5**: For unit testing (`junit-jupiter-engine`, `junit-vintage-engine`).
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make changes and add them (`git add .`).
+4. Commit your changes (`git commit -m 'Add new feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Create a new Pull Request.
+7. Sit back and relax while your PR is reviewed.
+
+## Citation Hint
+
+When referencing this project in academic or professional contexts, please use the following citation:
+
+> Getzke, Justin. "Software Quality - Exercise 4: A Java project for learning software quality principles." 2024. GitHub repository, https://github.com/justingtzk/SoftwareQuality_Exercise4.
 
 ## License
 
